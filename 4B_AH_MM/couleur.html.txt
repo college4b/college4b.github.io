@@ -1,0 +1,16 @@
+h1
+{font-size:20px;
+      color:blue;
+background-color:black;
+}
+
+h2
+{font-size:30pix;
+     color:green;
+text-aling:left;
+background-color:yellow;
+}
+
+html{
+ background-color:#0085F;
+}

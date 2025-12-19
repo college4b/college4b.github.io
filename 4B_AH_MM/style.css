@@ -1,0 +1,46 @@
+h1
+{font-size:20px;
+      color:blue;
+background-color:black;
+}
+
+h2
+{font-size:30pix;
+     color:green;
+text-aling:left;
+background-color:yellow;
+}
+
+html{
+ background-color:#0085F;
+}
+
+
+p
+{font-size:45px;
+      color:yellow;
+padding-left:50px;
+border:1px solid black;
+}
+body{
+ width:1200px;
+ margin:0 auto;
+ background-color:#FF9500;
+ padding:0 20px 20px 20px;
+ border:20px solid black;
+ text-alingn:center;
+}
+
+
+
+
+
+img
+{
+display:block;
+margin:0auto;
+}
+
+
+
+

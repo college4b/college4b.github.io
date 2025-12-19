@@ -1,0 +1,126 @@
+h1
+{font-size:20px;
+      color:blue;
+background-color:turquoise;
+}
+h2{
+  background: linear-gradient(90deg, #b8860b, #ffd700, #ffec8b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  background: linear-gradient(
+    270deg,
+    #ff9aa2,
+    #ffb7a8,
+    #ffdac1,
+    #e2f0cb,
+    #b5ead7,
+    #c7ceea,
+    #ff9aa2
+  );
+  background-size: 300% 300%;
+  animation: pastelMove 12s ease infinite;
+}
+
+@keyframes pastelMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+a, 
+a * {
+  font-weight: bold;
+  text-decoration: none;
+
+  /* Dégradé doré + argenté FONCÉ */
+  background: linear-gradient(
+    90deg,
+    #c9a300,
+    #8f6b00,
+    #5f5f5f,
+    #8c8c8c,
+    #c9a300,
+    #8f6b00
+  );
+
+  background-size: 350% 350%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: goldSilverDark 4s linear infinite;
+}
+
+/* Animation métallique */
+@keyframes goldSilverDark {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.menu-boutons {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+
+.glow-button {
+  padding: 15px 36px;
+  font-size: 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+
+  background: linear-gradient(90deg, #3ddad8, #4a7aff);
+  transition: 0.25s ease;
+  box-shadow: 0 8px 20px rgba(75, 90, 255, 0.15);
+}
+
+
+.glow-button:hover {
+  background: linear-gradient(90deg, #6c4cff, #62e1ff);
+  box-shadow: 0 20px 40px rgba(98, 110, 255, 0.45);
+  transform: translateY(-3px) scale(1.03);
+}
+
+
+.glow-button span:last-child {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.15);
+}
+
+h3{
+  background: linear-gradient(#000080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
