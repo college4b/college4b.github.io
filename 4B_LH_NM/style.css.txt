@@ -1,0 +1,20 @@
+h1
+{font-size:20px;
+      color:pink;
+backgrond-color:white;
+} 
+
+h2
+{font-size:30px;
+     color:pink;
+text-align:left;
+backgrond-color:white;
+}
+
+html{
+  background-color:#00850F;
+}
+
+
+p
+{font-size:45px;

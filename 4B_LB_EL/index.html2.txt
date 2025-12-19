@@ -1,0 +1,23 @@
+<!doctype html>
+
+
+<html>
+<head>
+<meta charset="ut-8">
+<title> Les communications et les Transports</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<p>Lalie et Elisa-Rose</p>
+<h1>premiere atomobile</h1>
+
+<h2>Invention des de la premiere automobile</h2>
+<img src=images/automo>
+<h5>automobile</h5>
+<h2>voitures modernes avec essences</h2>
+<img src=images/essence>
+
+</body>
+</html>
